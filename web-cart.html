@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="web-cart.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="brand">
+            <div class="brand-logo">
+                <img src="logo-symbol.png" alt="Brand Logo" />
+            </div>
+            <div class="brand-text">
+                <h1>Brand</h1>
+            </div>
+        </div>
+        <nav>
+            <a href="#">Profile</a>
+            <a href="#">Message</a>
+            <a href="#">Orders</a>
+            <a href="#">My cart</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="cart">
+            <h2>My cart (3)</h2>
+            <div class="cart-item">
+                <img src="cart/Group 1004.png" alt="Blue T-shirt">
+                <div class="item-details">
+                    <h3>T-shirts with multiple colors, for men and lady</h3>
+                    <p>Size: medium, Color: blue, Material: Plastic</p>
+                    <p>Seller: Artel Market</p>
+                    <div class="actions">
+                        <button class="remove">Remove</button>
+                        <button class="save">Save for later</button>
+                    </div>
+                </div>
+                <div class="price">$78.99</div>
+                <select class="qty">
+                    <option>Qty: 9</option>
+                </select>
+            </div>
+
+            <div class="cart-item">
+                <img src="cloth/5.jpg" alt="Another blue T-shirt">
+                <div class="item-details">
+                    <h3>T-shirts with multiple colors, for men and lady</h3>
+                    <p>Size: medium, Color: blue, Material: Plastic</p>
+                    <p>Seller: Best factory LLC</p>
+                    <div class="actions">
+                        <button class="remove">Remove</button>
+                        <button class="save">Save for later</button>
+                    </div>
+                </div>
+                <div class="price">$39.00</div>
+                <select class="qty">
+                    <option>Qty: 3</option>
+                </select>
+            </div>
+
+            <div class="cart-item">
+                <img src="cloth/4.jpg" alt="Gray T-shirt">
+                <div class="item-details">
+                    <h3>T-shirts with multiple colors, for men and lady</h3>
+                    <p>Size: medium, Color: blue, Material: Plastic</p>
+                    <p>Seller: Artel Market</p>
+                    <div class="actions">
+                        <button class="remove">Remove</button>
+                        <button class="save">Save for later</button>
+                    </div>
+                </div>
+                <div class="price">$170.50</div>
+                <select class="qty">
+                    <option>Qty: 1</option>
+                </select>
+            </div>
+
+            <div class="cart-buttons">
+                <button class="back">← Back to shop</button>
+                <button class="remove-all">Remove all</button>
+            </div>
+        </section>
+
+        <aside class="summary">
+            <h3>Have a coupon?</h3>
+            <div class="coupon">
+                <input type="text" placeholder="Add coupon">
+                <button>Apply</button>
+            </div>
+            <div class="totals">
+                <p>Subtotal: <span>$1403.97</span></p>
+                <p>Discount: <span class="discount">-$60.00</span></p>
+                <p>Tax: <span class="tax">+$14.00</span></p>
+                <hr>
+                <p class="total">Total: <strong>$1357.97</strong></p>
+            </div>
+            <button class="checkout">Checkout</button>
+        </aside>
+    </main>
+
+    <div class="info-badges">
+        <div class="badge">
+            <i class="fas fa-lock"></i>
+            <div class="badge-content">
+                <h4>Secure payment</h4>
+                <p>Have you ever finally just write dummy info</p>
+            </div>
+        </div>
+        <div class="badge">
+            <i class="fas fa-headset"></i>
+            <div class="badge-content">
+                <h4>Customer support</h4>
+                <p>Have you ever finally just write dummy info</p>
+            </div>
+        </div>
+        <div class="badge">
+            <i class="fas fa-truck"></i>
+            <div class="badge-content">
+                <h4>Free delivery</h4>
+                <p>Have you ever finally just write dummy info</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="saved">
+        <h2>Saved for later</h2>
+        <div class="products">
+            <div class="product">
+                <img src="tech/6.jpg" alt="GoPro Camera">
+                <p>$99.50</p>
+                <p>GoPro HERO6 4K Action Camera - Black</p>
+                <button>Move to cart</button>
+            </div>
+            <div class="product">
+                <img src="tech/7.jpg" alt="GoPro Camera">
+                <p>$99.50</p>
+                <p>GoPro HERO6 4K Action Camera - Black</p>
+                <button>Move to cart</button>
+            </div>
+            <div class="product">
+                <img src="tech/3.jpg" alt="GoPro Camera">
+                <p>$99.50</p>
+                <p>GoPro HERO6 4K Action Camera - Black</p>
+                <button>Move to cart</button>
+            </div>
+            <div class="product">
+                <img src="tech/5.jpg" alt="GoPro Camera">
+                <p>$99.50</p>
+                <p>GoPro HERO6 4K Action Camera - Black</p>
+                <button>Move to cart</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="discount-banner">
+        <div>
+            <h2>Super discount on more than 100 USD</h2>
+            <p>Have you ever finally just write dummy info</p>
+        </div>
+        <button class="shop-now-btn">Shop now</button>
+    </div>
+
+    <div class="email">
+        <h2>Subscribe on our newsletter</h2>
+        <p> Get daily on upcoming offers from many suppliers all over the world</p>
+        <div class="email-input-container">
+            <input type="email" placeholder="Email"><button>Subscribe</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-section">
+            <div class="footer-logo">
+                <img src="logo-symbol.png" alt="Brand Logo">
+                <h4 style="color:#8cb7f5;">Brand</h4>
+            </div>
+            <p>Best information about the company goes here but now lorem ipsum is.</p>
+            <div class="social-icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+        <div class="footer-section">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Find Store</a>
+            <a href="#">Categories</a>
+            <a href="#">Blogs</a>
+        </div>
+        <div class="footer-section">
+            <h4>Partnership</h4>
+            <a href="#">About Us</a>
+            <a href="#">Find Store</a>
+            <a href="#">Categories</a>
+            <a href="#">Blogs</a>
+        </div>
+        <div class="footer-section">
+            <h4>Information</h4>
+            <a href="#">Help Center</a>
+            <a href="#">Money Refund</a>
+            <a href="#">Shipping</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="footer-section">
+            <h4>For Users</h4>
+            <a href="#">Login</a>
+            <a href="#">Register</a>
+            <a href="#">Settings</a>
+            <a href="#">My Orders</a>
+        </div>
+        <div class="footer-section app-links">
+            <h4>Get App</h4>
+            <img src="play store.png" alt="App Store">
+            <img src="google play.png" alt="Google Play">
+        </div>
+    </footer>
+    <div class="cooperation">
+        <div class="ecommerce">
+            <p>© 2023 Ecommerce</p>
+        </div>
+        <div class="flag-icon">
+            <img src="https://flagcdn.com/us.svg" alt="USA flag" class="flag-icon-img">
+            <p>English</p>
+        </div>
+    </div>
+</body>
+<script>
+ 
+// --- Helper to update totals ---
+function updateTotals() {
+  let subtotal = 0;
+  document.querySelectorAll(".cart-item").forEach(item => {
+    const priceText = item.querySelector(".price").textContent.replace("$", "");
+    const qtyText = item.querySelector(".qty").value;
+    const price = parseFloat(priceText) || 0;
+    const qty = parseInt(qtyText) || 1;
+    subtotal += price * qty;
+  });
+
+  const discount = parseFloat(document.querySelector(".discount")?.textContent.replace(/[^0-9.-]/g, "")) || 0;
+  const tax = parseFloat(document.querySelector(".tax")?.textContent.replace(/[^0-9.-]/g, "")) || 0;
+  const total = subtotal - Math.abs(discount) + tax;
+
+  document.querySelector(".totals span").textContent = `$${subtotal.toFixed(2)}`;
+  document.querySelector(".total strong").textContent = `$${total.toFixed(2)}`;
+}
+
+// --- Remove single item ---
+document.querySelectorAll(".remove").forEach(btn => {
+  btn.addEventListener("click", e => {
+    e.target.closest(".cart-item").remove();
+    updateTotals();
+  });
+});
+
+// --- Remove all items ---
+document.querySelector(".remove-all").addEventListener("click", () => {
+  document.querySelectorAll(".cart-item").forEach(item => item.remove());
+  updateTotals();
+});
+
+// --- Update totals when quantity changes ---
+document.querySelectorAll(".qty").forEach(select => {
+  select.addEventListener("change", updateTotals);
+});
+
+// --- Save for later ---
+document.querySelectorAll(".save").forEach(btn => {
+  btn.addEventListener("click", e => {
+    const item = e.target.closest(".cart-item");
+    const savedSection = document.querySelector(".saved .products");
+    const img = item.querySelector("img").src;
+    const price = item.querySelector(".price").textContent;
+    const title = item.querySelector("h3").textContent;
+
+    const savedProduct = document.createElement("div");
+    savedProduct.classList.add("product");
+    savedProduct.innerHTML = `
+      <img src="${img}" alt="Saved Item">
+      <p>${price}</p>
+      <p>${title}</p>
+      <button>Move to cart</button>
+    `;
+    savedSection.appendChild(savedProduct);
+    item.remove();
+    updateTotals();
+  });
+});
+
+// --- Move saved item back to cart ---
+document.querySelector(".saved .products").addEventListener("click", e => {
+  if (e.target.tagName === "BUTTON") {
+    const product = e.target.closest(".product");
+    const cart = document.querySelector(".cart");
+    const img = product.querySelector("img").src;
+    const price = product.querySelector("p").textContent;
+    const title = product.querySelectorAll("p")[1].textContent;
+
+    const cartItem = document.createElement("div");
+    cartItem.classList.add("cart-item");
+    cartItem.innerHTML = `
+      <img src="${img}" alt="Cart Item">
+      <div class="item-details">
+        <h3>${title}</h3>
+        <p>Size: medium, Color: blue, Material: Plastic</p>
+        <p>Seller: Example Store</p>
+        <div class="actions">
+          <button class="remove">Remove</button>
+          <button class="save">Save for later</button>
+        </div>
+      </div>
+      <div class="price">${price}</div>
+      <select class="qty">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+      </select>
+    `;
+    cart.insertBefore(cartItem, document.querySelector(".cart-buttons"));
+    product.remove();
+    updateTotals();
+  }
+});
+
+// --- Apply coupon ---
+document.querySelector(".coupon button").addEventListener("click", () => {
+  const code = document.querySelector(".coupon input").value.trim().toLowerCase();
+  let discountValue = 0;
+  if (code === "save10") {
+    discountValue = 10;
+  } else if (code === "save50") {
+    discountValue = 50;
+  }
+  document.querySelector(".discount").textContent = `-$${discountValue.toFixed(2)}`;
+  updateTotals();
+});
+
+// --- Initialize ---
+updateTotals();
+</script>
+</html>

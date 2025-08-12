@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecommerce Grid View</title>
+  <link rel="stylesheet" href="web-grid.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+ <header>
+    <div class="brand">
+      <div class="brand-logo">
+        <img src="logo-symbol.png" alt="Brand Logo" />
+      </div>
+      <div class="brand-text">
+        <h1>Brand</h1>
+      </div>
+    </div>
+
+    <div class="search-form">
+      <input type="search" id="search" placeholder="Search" />
+      <select class="category">
+        <option>All category</option>
+        <option>Auto Mobile</option>
+        <option>Clothes and Wear</option>
+        <option>Home Interior</option>
+        <option>Computer and Tech</option>
+        <option>Tools, equipments</option>
+        <option>Sports and Outdoor</option>
+        <option>Animal and pets</option>
+        <option>Machinery tools</option>
+      </select>
+      <div class="search-button">
+        <button>Search</button>
+      </div>
+    </div>
+
+    <div class="logos">
+        <p>Profile</p><i class="fa-solid fa-user"></i>
+      <p>Message</p> <i class="fa-solid fa-message"></i>
+      <p>Orders</p><i class="fa-solid fa-heart"></i>
+      <p>My Cart</p>   <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+  </header>
+
+  <div class="navbar">
+    <div class="all-category">
+      <p>All category</p>
+      <p>Hot offers</p>
+      <p>Gift boxes</p>
+      <p>Projects</p>
+      <p>Menu item</p>
+      <p>Help</p>
+      <select></select>
+    </div>
+    <div class="ship">
+      <p>English, USD</p>
+      <select></select>
+      <p>Ship to</p>
+      <select></select>
+    </div>
+  </div>
+
+
+  <!-- Breadcrumb -->
+  <nav class="breadcrumb">
+    Home > Clothings > Men’s wear > Summer clothing
+  </nav>
+
+  <!-- Main Layout -->
+  <div class="container">
+    
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h3>Category</h3>
+      <ul>
+        <li>Mobile accessory</li>
+        <li>Electronics</li>
+        <li>Smartphones</li>
+        <li>Modern tech</li>
+        <li class="see-all">See all</li>
+      </ul>
+
+      <h3>Brands</h3>
+      <label><input type="checkbox" checked> Samsung</label><br>
+      <label><input type="checkbox" checked> Apple</label><br>
+      <label><input type="checkbox"> Huawei</label><br>
+      <label><input type="checkbox" checked> Poco</label><br>
+      <label><input type="checkbox"> Lenovo</label><br>
+
+      <h3>Features</h3>
+      <label><input type="checkbox" checked> Metallic</label><br>
+      <label><input type="checkbox"> Plastic cover</label><br>
+      <label><input type="checkbox"> 8GB Ram</label><br>
+      <label><input type="checkbox"> Super power</label><br>
+      <label><input type="checkbox"> Large Memory</label><br>
+    </aside>
+
+    <!-- Products -->
+    <main class="products">
+      <div class="product-card">
+        <img src="tech/1.jpg" alt="">
+        <h4>$99.50 <span>$1128.00</span></h4>
+        <p>GoPro HERO6 4K Action Camera - Black</p>
+      </div>
+      <div class="product-card">
+        <img src="tech/2.jpg" alt="">
+        <h4>$99.50 <span>$1128.00</span></h4>
+        <p>GoPro HERO6 4K Action Camera - Black</p>
+      </div>
+      <div class="product-card">
+        <img src="tech/3.jpg" alt="">
+        <h4>$99.50</h4>
+        <p>GoPro HERO6 4K Action Camera - Black</p>
+      </div>
+      <div class="product-card">
+       <a href="web-details.html"> <img src="cart/Group 1004.png" alt=""></a>
+        <h4>$99.50</h4>
+        <p>GoPro HERO6 4K Action Camera - Black</p>
+      </div>
+      <div class="product-card">
+        <img src="tech/5.jpg" alt="">
+        <h4>$99.50</h4>
+        <p>GoPro HERO6 4K Action Camera - Black</p>
+      </div>
+      <div class="product-card">
+        <img src="tech/6.jpg" alt="">
+        <h4>$99.50</h4>
+        <p>GoPro HERO6 4K Action Camera - Black</p>
+      </div>
+      <div class="product-card">
+        <img src="tech/7.jpg" alt="">
+        <h4>$99.50</h4>
+        <p>GoPro HERO6 4K Action Camera - Black</p>
+      </div>
+      <div class="product-card">
+        <img src="tech/8.jpg" alt="">
+        <h4>$99.50</h4>
+        <p>GoPro HERO6 4K Action Camera - Black</p>
+      </div>
+    </main>
+  </div>
+<div class="email">
+  <br><br><br>
+  <h2>Subscribe on our newsletter</h2>
+  <p> Get daily on upcoming offers from many suppliers all over the world</p>
+  <input type="email" placeholder="Email"><button>Subscribe</button>
+</div>
+<footer>
+ <div class="footer-section">
+        <div class="footer-logo">
+            <img src="logo-symbol.png" alt="Brand Logo">
+            <h4 style="color:#3498db;">Brand</h4>
+        </div>
+        <p>Best information about the company goes here but now lorem ipsum is.</p>
+        <div class="social-icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-youtube"></i>
+        </div>
+    </div>
+    <div class="footer-section">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Find Store</a>
+        <a href="#">Categories</a>
+        <a href="#">Blogs</a>
+    </div>
+    <div class="footer-section">
+        <h4>Partnership</h4>
+        <a href="#">About Us</a>
+        <a href="#">Find Store</a>
+        <a href="#">Categories</a>
+        <a href="#">Blogs</a>
+    </div>
+    <div class="footer-section">
+        <h4>Information</h4>
+        <a href="#">Help Center</a>
+        <a href="#">Money Refund</a>
+        <a href="#">Shipping</a>
+        <a href="#">Contact Us</a>
+    </div>
+    <div class="footer-section">
+        <h4>For Users</h4>
+        <a href="#">Login</a>
+        <a href="#">Register</a>
+        <a href="#">Settings</a>
+        <a href="#">My Orders</a>
+    </div>
+    <div class="footer-section app-links">
+        <h4>Get App</h4>
+        <img src="play store.png" alt="App Store">
+        <img src="google play.png" alt="Google Play">
+    </div>
+</footer>
+<div class="cooperation">
+  <div class="ecommerce">
+  <p>2023 Ecommerce</p></div>
+  <div class="flag-icon">
+  <p> <img src="https://flagcdn.com/us.svg" alt="USA flag" class="flag-icon"> English</p></div>
+
+</body>
+<script>document.querySelectorAll('.sidebar input[type="checkbox"]').forEach(box => {
+  box.addEventListener('change', () => {
+    alert(`Filter changed: ${box.parentElement.textContent.trim()}`);
+  });
+});
+</script>
+</html>
